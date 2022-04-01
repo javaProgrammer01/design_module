@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a24bd5fb-fa47-4c83-acd9-85fa52e7475e" name="Default Changelist" comment="" />
+    <list default="true" id="a24bd5fb-fa47-4c83-acd9-85fa52e7475e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/design_module.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-customer/cq-customer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-customer/src/main/java/com/ali/cq/controller/TestCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-customer/src/main/java/com/ali/cq/controller/TestCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-customer/src/main/java/com/ali/cq/manyifdemo/service/springservice/MessageServiceListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-customer/src/main/java/com/ali/cq/manyifdemo/service/springservice/MessageServiceListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-gateway/cq-gateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-gateway/src/main/java/com/ali/cq/CQGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-gateway/src/main/java/com/ali/cq/CQGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-gateway/src/main/java/com/ali/cq/config/SentinelConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cq-gateway/src/main/java/com/ali/cq/config/SentinelConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-provider/cq-provider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cq-register/cq-register.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -52,6 +68,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -178,22 +195,7 @@
       <serviceView>
         <option name="contentProportion" value="0.18196721" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e14857b5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e14857b5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c6b6c86d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e14857b5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4fb0667d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -237,11 +239,23 @@
       <workItem from="1645673040990" duration="3268000" />
       <workItem from="1645677596657" duration="598000" />
       <workItem from="1648791978675" duration="2371000" />
+      <workItem from="1648795519691" duration="504000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
