@@ -1,0 +1,7 @@
+D:\javaSpace\ideaSpace\cq\cq-provider\src\main\java\com\ali\cq\controller\ProviderController.java
+D:\javaSpace\ideaSpace\cq\cq-provider\src\main\java\com\ali\cq\service\ISentinelService.java
+D:\javaSpace\ideaSpace\cq\cq-provider\src\main\java\com\ali\cq\feign\DemoProviderOpenFeignAPI.java
+D:\javaSpace\ideaSpace\cq\cq-provider\src\main\java\com\ali\cq\fallback\SentinelFallback.java
+D:\javaSpace\ideaSpace\cq\cq-provider\src\main\java\com\ali\cq\CQProviderApplication.java
+D:\javaSpace\ideaSpace\cq\cq-provider\src\main\java\com\ali\cq\service\impl\SentinelServiceImpl.java
+D:\javaSpace\ideaSpace\cq\cq-provider\src\main\java\com\ali\cq\hystrix\TestProviderFeignHystrix.java

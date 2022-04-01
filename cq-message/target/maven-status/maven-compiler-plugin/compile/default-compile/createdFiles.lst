@@ -1,0 +1,3 @@
+com\ali\message\CQMessageApplication.class
+com\ali\message\provider\TestProducerController.class
+com\ali\message\consumer\TestStreamConsumer.class

@@ -1,0 +1,44 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: cq-gateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.157.111:9000
+    sentinel:
+      transport:
+        dashboard: localhost:8880
+        port: 8719
+      datasource:
+        ds:
+          nacos:
+            server-addr: 192.168.157.111:9000
+            dataId: sentinel-config-source
+            groupId: DEFAULT_GROUP
+            rule-type: flow
+    gateway:
+      discovery: # 开启动态创建路由的功能,利用nacos注册中心的微服务名进行路由
+        locator:
+          enabled: true
+      routes:
+        - id: route-cq-register
+          uri: https://blog.csdn.net #lb://cq-register
+          predicates:
+            - Path=/register/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /register/$\{segment}
+        - id: cq-provider
+          uri: http://localhost:9004
+          predicates:
+            - Path=/pro/**
+          filters:
+            - RewritePath=/pro/(?<segment>.*), /$\{segment}
+        - id: cq-customer
+          uri: http://localhost:9005
+          predicates:
+            - Path=/acn/**
+

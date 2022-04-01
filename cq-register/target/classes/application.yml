@@ -1,0 +1,27 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: cq-register
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.157.111:9000
+      config:
+        server-addr: 192.168.157.111:9000
+        file-extension: yml
+        #prefix: addr-test
+
+xxl:
+  job:
+    admin:
+      #调度中心部署跟地址：如调度中心集群部署存在多个地址则用逗号分隔。
+      #执行器将会使用该地址进行"执行器心跳注册"和"任务结果回调"。
+      addresses: http://192.168.0.106:8070/xxl-job-admin
+    executor:
+      appname: test
+      ip: 192.168.0.106
+      port: 9999
+    accessToken:

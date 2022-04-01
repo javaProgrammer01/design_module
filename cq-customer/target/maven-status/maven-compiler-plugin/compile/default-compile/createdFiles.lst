@@ -1,0 +1,16 @@
+com\ali\cq\manyifdemo\enums\MessageStatusEnum.class
+com\ali\cq\testCompletable\service\imp\CompletableServiceImpl.class
+com\ali\cq\controller\TestCustomerController.class
+com\ali\cq\manyifdemo\service\springservice\MessageServiceListener.class
+com\ali\cq\testCompletable\service\ICompletableService.class
+com\ali\cq\CQCustomerApplication.class
+com\ali\cq\manyifdemo\service\handle\MessageServiceFactory.class
+com\ali\cq\manyifdemo\service\springservice\MessageServiceContext.class
+com\ali\cq\entity\User.class
+com\ali\cq\manyifdemo\entity\HandResultModel.class
+com\ali\cq\manyifdemo\enums\MsgTypeEnum.class
+com\ali\cq\manyifdemo\service\handle\TextMessageService.class
+com\ali\cq\manyifdemo\service\IMessageService.class
+com\ali\cq\manyifdemo\service\handle\ImageMessageService.class
+com\ali\cq\manyifdemo\entity\MessageInfo.class
+com\ali\cq\manyifdemo\annotation\MsgTypeAnnotation.class

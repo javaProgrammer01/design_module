@@ -1,0 +1,32 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: cq-provider
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.157.111:9000
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8880
+      #nacos数据源持久化配置
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 192.168.157.111:9000
+            dataId: sentinel-config-source
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+
+
+##配置对外暴露端口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

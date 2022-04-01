@@ -1,0 +1,7 @@
+com\ali\cq\service\impl\SentinelServiceImpl.class
+com\ali\cq\CQProviderApplication.class
+com\ali\cq\service\ISentinelService.class
+com\ali\cq\controller\ProviderController.class
+com\ali\cq\feign\DemoProviderOpenFeignAPI.class
+com\ali\cq\hystrix\TestProviderFeignHystrix.class
+com\ali\cq\fallback\SentinelFallback.class
