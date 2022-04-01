@@ -2,7 +2,6 @@ package com.ali.cq.manyifdemo.service.springservice;
 
 import com.ali.cq.manyifdemo.annotation.MsgTypeAnnotation;
 import com.ali.cq.manyifdemo.service.IMessageService;
-import com.ali.cq.manyifdemo.service.springservice.MessageServiceContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
