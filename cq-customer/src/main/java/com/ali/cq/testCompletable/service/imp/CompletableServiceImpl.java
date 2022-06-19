@@ -13,7 +13,7 @@ public class CompletableServiceImpl implements ICompletableService {
     public void testCompletableMethod() throws Exception {
         //1
         //这是测试测试
-        System.out.println(1111);
+        System.out.println(123123213);
         CompletableFuture.runAsync(() -> {
         });
         CompletableFuture<String> stringCompletableFuture = CompletableFuture.supplyAsync(() -> {
