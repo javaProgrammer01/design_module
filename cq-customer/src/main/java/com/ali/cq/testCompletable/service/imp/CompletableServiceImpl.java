@@ -12,6 +12,7 @@ public class CompletableServiceImpl implements ICompletableService {
     @Override
     public void testCompletableMethod() throws Exception {
         //1
+        //这是测试测试
         CompletableFuture.runAsync(() -> {
         });
         CompletableFuture<String> stringCompletableFuture = CompletableFuture.supplyAsync(() -> {
